@@ -3,6 +3,7 @@ import hudson.Util
 pipeline {
   agent {
     node {
+      // TODO: Add machine label
       label ''
     }
   }
@@ -18,7 +19,9 @@ pipeline {
   }
   stages {
     stage('Prepare Environment') {
-      echo 'Hello'
+      steps {
+        echo 'Hello'
+      }
     }
   }
   post {
@@ -76,6 +79,7 @@ pipeline {
       }
 
       slackSend (
+        // TODO: Set appropriate channel name
         channel: '#builds',
         attachments: env.MESSAGE
       )
