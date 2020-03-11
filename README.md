@@ -4,37 +4,38 @@ This repo contains a Cookiecutter template which helps to generate a Git Repo.
 
 ## Getting Started
 
+### Prerequisites
+
+To use this template, cookiecutter must be installed first.
+
 ```bash
 pip install cookiecutter
+```
+
+### Installing
+
+Run the `cookiecutter` command with this repo URL to install and run the template.
+
+```bash
 cookiecutter https://github.com/fiftyonefifty/cookiecutter-git-repo
 ```
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-This project uses semantic versioning ([SemVer 2.0.0](https://semver.org/)). Incrementing versions is managed by [bumpversion](https://github.com/peritus/bumpversion).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/fiftyonefifty/cookiecutter-git-repo/tags).
 
-To ensure that the repo is properly versioned, you will need to install `bumpversion`.
+## Authors
 
-```bash
-pip install bumpversion
-```
+- **Derek Sudduth** - *Initial Creator* - [dsudduth](https://github.com/dsudduth)
 
-Once installed, bump the version before pushing your code or created a pull request.
+## License
 
-```bash
-# Examples
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
 
-# Bumping the major version to indicate a backwards incompatible change
-bumpversion major
+## Acknowledgments
 
-# Bumping the minor version
-bumpversion minor
-
-# Bumping the subminor due to a hotfix
-bumpversion patch
-```
-
+- Thanks to the [cookiecutter](https://github.com/cookiecutter/cookiecutter) team for creating a fantastic tool.
