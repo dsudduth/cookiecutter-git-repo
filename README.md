@@ -38,4 +38,3 @@ bumpversion minor
 bumpversion patch
 ```
 
-*Note: Bumpversion is configured to automatically create a commit when executed.*
