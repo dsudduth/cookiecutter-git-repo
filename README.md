@@ -12,9 +12,7 @@ To use this template, cookiecutter must be installed first.
 pip install cookiecutter
 ```
 
-### Installing
-
-#### Generating a new repository
+### Generating a new repository
 
 Run the `cookiecutter` command with this repo URL to install and run the template.
 
