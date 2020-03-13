@@ -14,10 +14,22 @@ pip install cookiecutter
 
 ### Installing
 
+#### Generating a new repository
+
 Run the `cookiecutter` command with this repo URL to install and run the template.
 
 ```bash
 cookiecutter https://github.com/fiftyonefifty/cookiecutter-git-repo
+```
+
+### Generating into an existing repository
+
+Run the `cookiecutter` command with the `-f` flag to generate this template into an existing project.
+
+> **Warning:** This can be destructive. If a file existing in your existing directory that matches an item covered by this template, it will be replaced.
+
+```bash
+cookiecutter https://github.com/fiftyonefifty/cookiecutter-git-repo -f
 ```
 
 ## Contributing
